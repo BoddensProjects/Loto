@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    flex-direction: column;
+    display: flex;
+    background-image: url('https://s3.amazonaws.com/prod-wp-tunota/wp-content/uploads/2023/08/principal_la-diaria-hoy-numero-jugo-11am-3-tarde-martes-22-agosto.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+h1{
+    
+    background-color: #065b18;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif, cursive;
+    font-size: 2.5rem;
+    margin-bottom:  2%;
+    margin-top:  2%;
+    color: #ffffff;
+    font-weight: bolder;
+  }
+
+.main-container{
+    flex-direction: column;
+    height:90vh;
+    width: 25%;
+    background-color: rgb(255, 226, 226);
+    border-radius: 30px;
+border:4px solid black;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    height:82vh;
+    width: 95%;
+    background-image: url('dirtbg.jpeg');
+    border-radius: 30px;
+border:4px solid black;
+   display: flex;
+   flex-direction: column;
+   background-color: white;
+}
+@media (max-width:900px){
+    .main-container{
+        height:85vh;
+        width: 70%;
+        background-color: rgb(108, 183, 32);
+        border-radius: 30px;
+    border:4px solid black;
+    }    
+}
+.tile{
+   display: flex;
+   flex-direction: row;
+
+}
+.left{
+  
+    flex:1;
+    display: flex;
+    flex-direction: column;
+
+}
+.right{
+    font-family: Arial, Helvetica, sans-serif;
+   font-size: 2rem;
+   color: #ffffff;
+   background-color: #4c0045;
+   margin:30px;
+   font-weight: bolder;
+    flex:1;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+    border-radius: 40px;
+}
+.tile1{
+    border-radius: 25px;
+    flex:1;
+    background-color: #b3ffb4;
+}
+.tile2{
+    border-radius: 25px;
+    flex:1;
+    background-color: #6bfa6d;
+}
+.tile3{
+    border-radius: 25px;
+    background-color: #b3ffb4;
+    flex:1;
+}
+.num1{
+    margin:5%;
+    flex:1;
+    height:50px;
+    width:50px;
+    background-color: #058507;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.num2{
+    margin:5%;
+    flex:1;
+    height:50px;
+    width:50px;
+    background-color: #058507;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.num3{
+    margin:5%;
+    flex:1;
+    height:50px;
+    width:50px;
+    background-color: #058507;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.num4{
+    margin:5%;
+    flex:1;
+    height:50px;
+    width:50px;
+    background-color: #058507;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.num5{
+    margin:5%;
+    flex:1;
+    height:50px;
+    width:50px;
+    background-color: #058507;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.num6{
+    margin:5%;
+    flex:1;
+    height:50px;
+    width:50px;
+    background-color: #058507;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.num7{
+    margin:5%;
+    flex:1;
+    height:50px;
+    width:50px;
+    background-color: #058507;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.num8{
+    margin:5%;
+    flex:1;
+    height:50px;
+    width:50px;
+    background-color: #058507;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.num9{
+    margin:5%;
+    flex:1;
+    height:50px;
+    width:50px;
+    background-color: #058507;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+p{
+    color: #ffffff;
+    font-size: 2rem;
+    font-weight: 700;
+    
+}
